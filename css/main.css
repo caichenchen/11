@@ -1,0 +1,344 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/*音乐部分*/
+#music{
+    position: fixed;
+    right: 6%;
+    top: 6%;
+    z-index: 9;
+}
+
+.music_bg{
+    position: absolute;
+    right: -20px;
+    top:-20px;
+    z-index: 9;
+    width: 60px;
+    height: 60px;
+
+}
+.music_pic{
+    right: 8px;
+    top:8px;
+
+}
+#music .music_pic{
+    animation: run  linear infinite 1s;
+}
+@keyframes run {
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/*音乐部分*/
+
+/*第一*/
+
+.swiper-slide.one{
+    background: url("../img/beij.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.one .one-yqh{
+    position: absolute;
+    width: 28%;
+}
+.swiper-slide.one .one-sha{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.one .sbsh{
+    position: absolute;
+    margin-top: -68%;
+    font-size: 48px;
+    color: burlywood;
+}
+.swiper-slide.one .sxh{
+    position: absolute;
+    margin-top: -54%;
+    font-size: 38px;
+    color: burlywood;
+}
+.swiper-slide.one .one-kuang{
+    position: absolute;
+    width: 80%;
+    top: 18%;
+    left: 8%;
+}
+.swiper-slide.one .yaoqh{
+    position: absolute;
+    width: 5%;
+    left: 73%;
+    top: 48%;
+}
+.swiper-slide.one .qi{
+    position: absolute;
+    top: 67%;
+    width: 100%;
+}
+/*第一*/
+
+/*第二*/
+.swiper-slide.two{
+    background: url("../img/beij.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.two .two-sha{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.two .xx{
+    position: absolute;
+    width: 100%;
+    height: 33%;
+    top: 0;
+}
+.swiper-slide.two .qi{
+    position: absolute;
+    top: 67%;
+    width: 100%;
+}
+.swiper-slide.two .hui{
+    position: absolute;
+    width: 74%;
+    top: 33%;
+    height: 53%;
+}
+.swiper-slide.two .kuangk{
+    position: absolute;
+    width: 44%;
+    top: 30%;
+}
+.swiper-slide.two .gywm{
+    position: absolute;
+    color: #000;
+    top: 31%;
+}
+.swiper-slide.two .jj{
+    position: absolute;
+    color: #fff;
+    width: 59%;
+    top: 39%;
+}
+    /*第二*/
+
+/*第三*/
+.swiper-slide.three{
+    background: url("../img/beij.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.three .three-sha{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.three .xx{
+    position: absolute;
+    width: 100%;
+    height: 33%;
+    top: 0;
+}
+.swiper-slide.three .qi{
+    position: absolute;
+    top: 67%;
+    width: 100%;
+}
+.swiper-slide.three .hui{
+    position: absolute;
+    width: 74%;
+    top: 33%;
+    height: 53%;
+}
+.swiper-slide.three .kuangk{
+    position: absolute;
+    width: 44%;
+    top: 30%;
+}
+.swiper-slide.three .gywm{
+    position: absolute;
+    color: #000;
+    top: 31%;
+}
+.swiper-slide.three .sj{
+    position: absolute;
+    color: #fff;
+    top: 37%;
+    line-height: 26px;
+}
+.swiper-slide.three .nr{
+    position: absolute;
+    color: #fff;
+    top: 38%;
+    line-height: 28px;
+    font-size: 16px;
+
+}
+/*第三*/
+
+/*第四*/
+.swiper-slide.four{
+    background: url("../img/beij.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.four .four-sha{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.four .kuangk{
+    position: absolute;
+    width: 50%;
+    top: 3%;
+}
+.swiper-slide.four .xyzp{
+    position: absolute;
+    color: #000;
+    top: 4.5%;
+}
+.swiper-slide.four .qi{
+    position: absolute;
+    top: 67%;
+    width: 100%;
+}
+.swiper-slide.four .tao{
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    top: 13%;
+}
+.swiper-slide.four .bao{
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    top: 46%;
+}
+/*第四*/
+
+/*第五*/
+.swiper-slide.five{
+    background: url("../img/beij.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.five .five-sha{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.five .hui{
+    position: absolute;
+    width: 74%;
+    top: 33%;
+    height: 53%;
+}
+.swiper-slide.five .kuangk{
+    position: absolute;
+    width: 44%;
+    top: 30%;
+}
+.swiper-slide.five .xx{
+    position: absolute;
+    width: 100%;
+    height: 33%;
+    top: 0;
+}
+.swiper-slide.five .qi{
+    position: absolute;
+    top: 67%;
+    width: 100%;
+}
+.swiper-slide.five .bmch{
+    position: absolute;
+    color: #000;
+    top: 31%;
+}
+.swiper-slide.five .name{
+    position: absolute;
+    left: 22%;
+    width: 55%;
+    height: 4%;
+    border-radius: 9px;
+    margin-top: -20%;
+}
+.swiper-slide.five .phone{
+    position: absolute;
+    left: 22%;
+    width: 55%;
+    height: 4%;
+    border-radius: 9px;
+    margin-top: -3%;
+}
+.swiper-slide.five .scry{
+    position: absolute;
+    left: 22%;
+    width: 55%;
+    height: 4%;
+    border-radius: 9px;
+    margin-top: 15%;
+}
+.swiper-slide.five .tijiao{
+    position: absolute;
+    left: 23%;
+    width: 55%;
+    height: 4%;
+    border-radius: 9px;
+    margin-top: 34%;
+    font-size: 14px;
+    background: #ff8533;
+}
+/*第五*/
+
+
+
+
